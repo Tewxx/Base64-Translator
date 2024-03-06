@@ -1,5 +1,4 @@
 import base64
-import os
 
 Option = int(input("[1] Decrypt [2] Encrypt >> "))
 
