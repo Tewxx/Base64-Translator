@@ -12,7 +12,7 @@ if Option == 1:
 
     print(base64_string)
 
-if Option == 2:
+elif Option == 2:
     EncryptedMessage = input("Message to Encrypt? ")
 
     EncryptedMessage_bytes = EncryptedMessage.encode("ascii")
@@ -20,3 +20,5 @@ if Option == 2:
     base64_string = base64_bytes.decode("ascii")  
 
     print(base64_string)
+else:
+    print("Invalid Option Choice")
